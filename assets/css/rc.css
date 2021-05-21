@@ -27,14 +27,15 @@ body {
   z-index: 2;
   pointer-events: none;
 }
-/*
+
 .heart {
   background-color: red;
   display: inline-block;
   height: 30px;
   margin: 0 10px;
-  position: relative;
-  top: 0;
+  position: absolute;
+ bottom:75px;
+  right: 7.5%;
   transform: rotate(-45deg);
   width: 30px;
 }
@@ -58,17 +59,17 @@ body {
   left: 15px;
   top: 0;
 }
-*/
+
 .clickme {
   position: fixed;
   display: block;
   width: 64px;
   height: 64px;
   border-radius: 64px;
-  background: #2980B9;
+  background: rgba(0);
   text-align: center;
   line-height: 64px;
-  bottom:10%;
+  bottom:20%;
   right: 5%;
   margin-top: -32px;
   margin-left: -32px;
@@ -76,14 +77,14 @@ body {
   font-weight: 700;
   text-decoration: none;
   font-size: 12px;
-  color: #fff;
+  color: rgba( 0,0,0,0);
   pointer-events: none;
   font-weight: 500;
 }
 
-.-nope {
+/*.-nope {
   background: #c0392b;
-}
+}*/
 
 .-hover {
   opacity: 0.8;
