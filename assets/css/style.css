@@ -1275,6 +1275,10 @@ footer .social-ico-block {
 }
 
 @media screen and (max-width: 640px){ 
+    .hide{
+        display: none;
+    }
+
     footer {
         padding-bottom: 80px;
     }
